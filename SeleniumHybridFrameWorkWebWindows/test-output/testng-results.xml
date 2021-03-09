@@ -2,43 +2,39 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4456" started-at="2021-03-08T05:18:05Z" finished-at="2021-03-08T05:18:09Z">
+  <suite name="Default suite" duration-ms="3218" started-at="2021-03-09T21:56:26Z" finished-at="2021-03-09T21:56:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4456" started-at="2021-03-08T05:18:05Z" finished-at="2021-03-08T05:18:09Z">
-      <class name="com.abc.desktop.applications.sample.scripts.Notepad">
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.abc.desktop.applications.sample.scripts.Notepad@e25b2fe]" name="generateReport" is-config="true" duration-ms="171" started-at="2021-03-08T00:18:05Z" finished-at="2021-03-08T00:18:05Z">
+    <test name="Default test" duration-ms="3218" started-at="2021-03-09T21:56:26Z" finished-at="2021-03-09T21:56:29Z">
+      <class name="com.abc.desktop.applications.calculator.scripts.Addition">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.abc.desktop.applications.calculator.scripts.Addition@77cd7a0]" name="generateReport" is-config="true" duration-ms="190" started-at="2021-03-09T16:56:26Z" finished-at="2021-03-09T16:56:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.abc.desktop.applications.sample.scripts.Notepad@e25b2fe]" name="setUp" is-config="true" duration-ms="1094" started-at="2021-03-08T00:18:05Z" finished-at="2021-03-08T00:18:06Z">
+        <test-method status="PASS" signature="setUpenvironment()[pri:0, instance:com.abc.desktop.applications.calculator.scripts.Addition@77cd7a0]" name="setUpenvironment" is-config="true" duration-ms="663" started-at="2021-03-09T16:56:26Z" finished-at="2021-03-09T16:56:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.abc.desktop.applications.sample.scripts.Notepad@e25b2fe]" name="methodName" is-config="true" duration-ms="2" started-at="2021-03-08T00:18:06Z" finished-at="2021-03-08T00:18:06Z">
+        </test-method> <!-- setUpenvironment -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.abc.desktop.applications.calculator.scripts.Addition@77cd7a0]" name="methodName" is-config="true" duration-ms="2" started-at="2021-03-09T16:56:27Z" finished-at="2021-03-09T16:56:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.abc.desktop.applications.sample.scripts.Notepad.testNotepad() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.abc.desktop.applications.calculator.scripts.Addition.testAddition() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="testNotepad()[pri:0, instance:com.abc.desktop.applications.sample.scripts.Notepad@e25b2fe]" name="testNotepad" duration-ms="2497" started-at="2021-03-08T00:18:06Z" finished-at="2021-03-08T00:18:09Z">
+        <test-method status="PASS" signature="testAddition()[pri:0, instance:com.abc.desktop.applications.calculator.scripts.Addition@77cd7a0]" name="testAddition" duration-ms="2012" started-at="2021-03-09T16:56:27Z" finished-at="2021-03-09T16:56:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNotepad -->
-        <test-method status="PASS" signature="clenaUp()[pri:0, instance:com.abc.desktop.applications.sample.scripts.Notepad@e25b2fe]" name="clenaUp" is-config="true" duration-ms="120" started-at="2021-03-08T00:18:09Z" finished-at="2021-03-08T00:18:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clenaUp -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.abc.desktop.applications.sample.scripts.Notepad@e25b2fe]" name="afterClass" is-config="true" duration-ms="549" started-at="2021-03-08T00:18:09Z" finished-at="2021-03-08T00:18:09Z">
+        </test-method> <!-- testAddition -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.abc.desktop.applications.calculator.scripts.Addition@77cd7a0]" name="afterClass" is-config="true" duration-ms="333" started-at="2021-03-09T16:56:29Z" finished-at="2021-03-09T16:56:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.abc.desktop.applications.sample.scripts.Notepad -->
+      </class> <!-- com.abc.desktop.applications.calculator.scripts.Addition -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

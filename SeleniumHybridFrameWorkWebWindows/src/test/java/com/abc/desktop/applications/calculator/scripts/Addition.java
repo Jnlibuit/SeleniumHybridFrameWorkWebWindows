@@ -2,13 +2,15 @@ package com.abc.desktop.applications.calculator.scripts;
 
 import org.testng.annotations.Test;
 
+import com.abc.StartWinium.StartWinium;
 import com.abc.desktop.applications.calculator.reuse.StartCalculator;
-
-public class Addition extends StartCalculator{
+ 
+public class Addition extends StartWinium {
+	
 	@Test
 	public void testAddition() throws InterruptedException {
 		
-		
+		//driver.quit();
 		//driver.findElementByName("Seven").click();
 		//StartCalculator.childTest = StartCalculator.parentTest.createNode( "Susscessfully clicked 7");
 		Thread.sleep(2000);

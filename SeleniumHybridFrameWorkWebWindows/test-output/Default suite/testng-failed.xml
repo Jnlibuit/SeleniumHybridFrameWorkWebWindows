@@ -7,7 +7,7 @@
         <methods>
           <include name="generateReport"/>
           <include name="testAddition"/>
-          <include name="setUp"/>
+          <include name="setUpenvironment"/>
         </methods>
       </class> <!-- com.abc.desktop.applications.calculator.scripts.Addition -->
     </classes>
