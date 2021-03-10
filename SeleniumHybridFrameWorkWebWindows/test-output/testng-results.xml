@@ -2,39 +2,39 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3218" started-at="2021-03-09T21:56:26Z" finished-at="2021-03-09T21:56:29Z">
+  <suite name="Default suite" duration-ms="19845" started-at="2021-03-10T22:34:13Z" finished-at="2021-03-10T22:34:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3218" started-at="2021-03-09T21:56:26Z" finished-at="2021-03-09T21:56:29Z">
-      <class name="com.abc.desktop.applications.calculator.scripts.Addition">
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.abc.desktop.applications.calculator.scripts.Addition@77cd7a0]" name="generateReport" is-config="true" duration-ms="190" started-at="2021-03-09T16:56:26Z" finished-at="2021-03-09T16:56:26Z">
+    <test name="Default test" duration-ms="19845" started-at="2021-03-10T22:34:13Z" finished-at="2021-03-10T22:34:33Z">
+      <class name="com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI@77cd7a0]" name="generateReport" is-config="true" duration-ms="355" started-at="2021-03-10T17:34:13Z" finished-at="2021-03-10T17:34:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="setUpenvironment()[pri:0, instance:com.abc.desktop.applications.calculator.scripts.Addition@77cd7a0]" name="setUpenvironment" is-config="true" duration-ms="663" started-at="2021-03-09T16:56:26Z" finished-at="2021-03-09T16:56:27Z">
+        <test-method status="PASS" signature="setUpenvironment()[pri:0, instance:com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI@77cd7a0]" name="setUpenvironment" is-config="true" duration-ms="1695" started-at="2021-03-10T17:34:13Z" finished-at="2021-03-10T17:34:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpenvironment -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.abc.desktop.applications.calculator.scripts.Addition@77cd7a0]" name="methodName" is-config="true" duration-ms="2" started-at="2021-03-09T16:56:27Z" finished-at="2021-03-09T16:56:27Z">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI@77cd7a0]" name="methodName" is-config="true" duration-ms="4" started-at="2021-03-10T17:34:15Z" finished-at="2021-03-10T17:34:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.abc.desktop.applications.calculator.scripts.Addition.testAddition() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI.testFlightsGUI() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="testAddition()[pri:0, instance:com.abc.desktop.applications.calculator.scripts.Addition@77cd7a0]" name="testAddition" duration-ms="2012" started-at="2021-03-09T16:56:27Z" finished-at="2021-03-09T16:56:29Z">
+        <test-method status="PASS" signature="testFlightsGUI()[pri:0, instance:com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI@77cd7a0]" name="testFlightsGUI" duration-ms="17007" started-at="2021-03-10T17:34:15Z" finished-at="2021-03-10T17:34:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAddition -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.abc.desktop.applications.calculator.scripts.Addition@77cd7a0]" name="afterClass" is-config="true" duration-ms="333" started-at="2021-03-09T16:56:29Z" finished-at="2021-03-09T16:56:29Z">
+        </test-method> <!-- testFlightsGUI -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI@77cd7a0]" name="afterClass" is-config="true" duration-ms="754" started-at="2021-03-10T17:34:32Z" finished-at="2021-03-10T17:34:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.abc.desktop.applications.calculator.scripts.Addition -->
+      </class> <!-- com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

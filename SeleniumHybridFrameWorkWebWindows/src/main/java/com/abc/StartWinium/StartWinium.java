@@ -15,6 +15,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.abc.wdcmds.ActionDriver;
+import com.abc.wdcmds.WiniumActionDriver;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
@@ -24,6 +26,8 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 public class StartWinium {
 	public static WiniumDriver driver;
 
+	public WiniumActionDriver aDriver;
+	
 	public static ExtentReports extent;
 	public static ExtentTest parentTest;
 	public static ExtentTest childTest;
