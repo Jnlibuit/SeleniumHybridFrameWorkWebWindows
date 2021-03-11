@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19845" started-at="2021-03-10T22:34:13Z" finished-at="2021-03-10T22:34:33Z">
+  <suite name="Default suite" duration-ms="16160" started-at="2021-03-11T13:36:30Z" finished-at="2021-03-11T13:36:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19845" started-at="2021-03-10T22:34:13Z" finished-at="2021-03-10T22:34:33Z">
+    <test name="Default test" duration-ms="16160" started-at="2021-03-11T13:36:30Z" finished-at="2021-03-11T13:36:46Z">
       <class name="com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI">
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI@77cd7a0]" name="generateReport" is-config="true" duration-ms="355" started-at="2021-03-10T17:34:13Z" finished-at="2021-03-10T17:34:13Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI@77cd7a0]" name="generateReport" is-config="true" duration-ms="239" started-at="2021-03-11T08:36:30Z" finished-at="2021-03-11T08:36:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="setUpenvironment()[pri:0, instance:com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI@77cd7a0]" name="setUpenvironment" is-config="true" duration-ms="1695" started-at="2021-03-10T17:34:13Z" finished-at="2021-03-10T17:34:15Z">
+        <test-method status="PASS" signature="setUpenvironment()[pri:0, instance:com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI@77cd7a0]" name="setUpenvironment" is-config="true" duration-ms="888" started-at="2021-03-11T08:36:30Z" finished-at="2021-03-11T08:36:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpenvironment -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI@77cd7a0]" name="methodName" is-config="true" duration-ms="4" started-at="2021-03-10T17:34:15Z" finished-at="2021-03-10T17:34:15Z">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI@77cd7a0]" name="methodName" is-config="true" duration-ms="4" started-at="2021-03-11T08:36:31Z" finished-at="2021-03-11T08:36:31Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="testFlightsGUI()[pri:0, instance:com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI@77cd7a0]" name="testFlightsGUI" duration-ms="17007" started-at="2021-03-10T17:34:15Z" finished-at="2021-03-10T17:34:32Z">
+        <test-method status="PASS" signature="testFlightsGUI()[pri:0, instance:com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI@77cd7a0]" name="testFlightsGUI" duration-ms="14485" started-at="2021-03-11T08:36:31Z" finished-at="2021-03-11T08:36:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFlightsGUI -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI@77cd7a0]" name="afterClass" is-config="true" duration-ms="754" started-at="2021-03-10T17:34:32Z" finished-at="2021-03-10T17:34:33Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.abc.desktop.applications.FlightsGUI.scripts.FlightsGUI@77cd7a0]" name="afterClass" is-config="true" duration-ms="463" started-at="2021-03-11T08:36:46Z" finished-at="2021-03-11T08:36:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

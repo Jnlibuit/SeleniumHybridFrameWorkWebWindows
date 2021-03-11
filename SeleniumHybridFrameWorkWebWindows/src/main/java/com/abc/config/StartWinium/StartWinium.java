@@ -1,4 +1,4 @@
-package com.abc.StartWinium;
+package com.abc.config.StartWinium;
 
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
@@ -26,7 +26,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 public class StartWinium {
 	public static WiniumDriver driver;
 
-	public WiniumActionDriver aDriver;
+	//public WiniumActionDriver aDriver;
 	
 	public static ExtentReports extent;
 	public static ExtentTest parentTest;
@@ -43,13 +43,13 @@ public class StartWinium {
 
 	@BeforeClass
 	public static void setUpenvironment() throws MalformedURLException
-	{
+	{ 
 		DesktopOptions option=new DesktopOptions();
 
 		option.setApplicationPath("C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\samples\\Flights Application\\FlightsGUI.exe");
 
 		WiniumDriver driver=new WiniumDriver(new URL("http://localhost:9999"), option);
-
+ 
 	}
 
 	@BeforeTest
@@ -64,6 +64,7 @@ public class StartWinium {
 	@BeforeMethod
 	public void methodName(Method method){
 		parentTest = extent.createTest(method.getName());
+		System.out.println(parentTest);
 	}
 	@AfterClass
 	public void afterClass() throws MalformedURLException {

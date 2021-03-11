@@ -13,6 +13,6 @@ public class AccountMenu extends StartBrowser {
 	  cfs.NavigateToHomePage("https://www.amazon.com/");
 	  cfs.AccountMenu();
 	  
-	  //Thread.sleep(2000);
+	  Thread.sleep(2000);
   }
 }
